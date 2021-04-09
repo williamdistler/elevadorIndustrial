@@ -1,0 +1,5 @@
+  if(elevador.estaLigado()) {
+    elevador.mover(10);
+  } else {
+    elevador.ligar();
+  }
