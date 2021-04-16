@@ -1,5 +1,33 @@
-  if(elevador.estaLigado()) {
-    elevador.mover(10);
-  } else {
-    elevador.ligar();
-  }
+projeto: ********* 
+ucc_poo_grua_211
+
+
+diario: *********
+4/8
+4/14
+4/15
+- + -
+- <<entity>>
+- uso do this
+
+
+plan: *********
+- estaDesligado(), Abstracao (organizacao e legibilidade) 
+- pacote/esteriotipo
+- teste m
+- teste u
+
+
+ps.: *********
+
+if(elevador.estado == 1) {
+  elevador.mover(10);
+} else {
+  elevador.estado = 1;
+}
+
+if(elevador.estaLigado()) {
+  elevador.mover(10);
+} else {
+	elevador.ligar();
+}
